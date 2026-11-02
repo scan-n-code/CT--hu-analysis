@@ -1,5 +1,5 @@
 # CT Hounsfield Unit (HU) Analysis
-**Disclaimer:** This is an educational/research project. It is not a medical device and must not be used for clinical decisions.
+ **Disclaimer:** Educational/portfolio project using a synthetic CT phantom. Not a diagnostic tool and not intended for clinical use.
 
 A single Python script that converts CT pixel data into **Hounsfield Units (HU)**,
 applies clinical windowing (bone / lung / brain / soft tissue), classifies
@@ -57,6 +57,7 @@ Output plots and a printed tissue-composition report are saved to `output/`.
 - The synthetic phantom is a simplified geometric approximation, not a
   validated anatomical phantom.
 - Educational / portfolio project — not a diagnostic tool.
+-  the DICOM option is included but has not been tested on real patient scans.
   
 ## Development note
 This project was developed with AI coding assistance. I designed the pipeline, ran it, and reviewed the results and limitations.
